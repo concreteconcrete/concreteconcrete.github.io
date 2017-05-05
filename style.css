@@ -22,7 +22,12 @@
 .main-title {
   font-family: 'Cormorant Garamond', serif;
   font-size: 30px;
-  letter-spacing: 26px;
+  letter-spacing: 0.9em;
+  margin-right: -0.9em;
   color: white;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+.main-footer-container {
+  font-family: 
 }
