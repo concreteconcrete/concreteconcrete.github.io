@@ -23,7 +23,7 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: 30px;
   letter-spacing: 0.9em;
-  margin-right: -2.8em;
+  margin-right: -3.7em;
   color: white;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
   cursor: default;
@@ -60,5 +60,11 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .main-title {
     font-size: 48px;
+    line-height: 0.8em;
+  }
+
+  .social-media-icon {
+    width: 72px;
+    padding: 40px;
   }
 }
