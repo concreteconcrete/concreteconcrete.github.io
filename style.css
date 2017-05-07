@@ -67,4 +67,8 @@
     width: 72px;
     padding: 40px;
   }
+
+  .main-footer-container {
+    bottom: 60px;
+  }
 }
