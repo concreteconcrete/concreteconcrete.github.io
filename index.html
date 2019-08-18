@@ -3,8 +3,23 @@
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <script src="action.js"></script>
   <head>
-  <body>
+  <body onload="on_load();">
+    <div class="dialog-full-container" id="dialog-full-container">
+      <div class="dialog-center-container">
+        <div class="dialog">
+          <div class="dialog-close" onclick="close_dialog()">✕</div>
+          <img class="dialog-image" src="pic/elsewhere-show.jpg">
+          <p><i>Drifter</i> Album Release Show</p>
+          <p>9/3/2019</p>
+          <p>Elsewhere Zone One, Brooklyn, NY</p>
+          <a href="https://www.eventbrite.com/e/concrete-concrete-album-release-elsewhere-zone-one-tickets-65206612734?aff=efbeventtix&fbclid=IwAR1KBonWMcQE1_m8hBPBzcKdYiWWbf9DgjqfSH25ju8i3Jiahq7smlrlc38">
+            <div class="dialog-cta">Get Tickets</div>
+          </a>
+        </div>
+      </div>
+    </div>
     <div class="main-full-container">
       <div class="main-center-container">
         <p class="main-title">concrete concrete</p>
