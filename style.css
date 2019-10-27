@@ -86,12 +86,13 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .dialog-image {
-  width: 380px;
+  width: 240px;
 }
 
 .dialog-close {
